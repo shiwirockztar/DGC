@@ -1,0 +1,387 @@
+
+@font-face{
+	src:url(../ima/Bertrade.ttf);
+	font-family:  Ber;
+}
+
+
+*{
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+:root {
+	--variable-ancho: 1360;
+}
+
+/*tutorial html y css | propiededades background y como ajustar el fondo al navegador*/
+
+body{
+	/*background: url(../ima/indexx.png);*/
+	background: url(../ima/Fondo.png);
+
+	background-size: 100% 100%;
+	background-attachment: fixed; imagen fija si se dezplaza la barra de dezplazamiento	
+	background-size: cover;
+}
+
+.botoninv{
+	position: absolute;
+	background: rgba(255, 255, 204,1);
+	width: 134px;height: 46px;
+	top: 59px;
+	left: 651px;
+	cursor: crosshair;
+}
+/*----------------------------------- header --------------------------*/
+
+header{
+	position: relative;
+	margin: auto;
+	/*width: 1375px;*/
+	width: var(--variable-ancho);
+	height: 105px;
+	/*background: rgba(204, 153, 255,.5);*/
+}
+
+.mc{
+	position: absolute;
+	background: rgba(255, 255, 204,1);
+	width: 40px;height: 40px;
+	top: 37px;
+	left: 33px;
+	background: url(../ima/mc.png);
+	background-size: cover;
+}
+
+header ul{
+	position: absolute;
+	/*background: rgba(255, 255, 204,.5);*/
+	width: 1297px;height: 47px;
+	top: 37px;
+	left: 74px;
+}
+
+header ul li {
+	position: relative;
+	float: left;
+	width: 40px;height: 40px;
+	top: 5px;left: 1105px;
+	margin: 0px 12px;
+	/*background: black;*/
+	/*background: rgba(0, 0, 0,.5);*/
+	border-radius: 100%;
+}
+
+header ul li a{
+	float: left;
+	width: 40px;
+	height: 40px;
+	/*background: white;*/
+	/*margin: 5px; Espaciado*/
+	border-radius: 100%;
+}
+
+header ul li:first-child{
+	background: url(../ima/google.png);
+	background-size: cover;
+}
+header ul li:nth-child(2){
+	background: url(../ima/facebook.png);
+	background-size: cover;
+}
+header ul li:nth-child(3){
+	background: url(../ima/twitter.png);
+	background-size: cover;
+}
+/*----------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------*/
+section{
+	position: relative;
+	margin: auto;
+	width: var(--variable-ancho);
+	height: 370px;
+	/*background: rgba(51, 102, 255,.5);*/
+}
+.Logo{
+	
+	position: absolute;
+	top: 77px;
+	left: 403px;
+	width: 615px;
+	height:232px;
+	/*background: rgba(255, 0, 0,.5);*/
+	cursor: none;
+}
+/*----------------------------------------------------------------------------------*/
+
+
+
+
+/*----------------------------------------------------------------------------------*/
+.Menu{
+	position: relative;
+	margin: auto;
+	width: var(--variable-ancho);
+	height: 295px;
+	/*background: rgba(102, 255, 102,.5);*/
+	border-bottom: 2px solid #707070;
+
+	/*display:block;
+	padding:8px 16px;
+	text-align:left;*/
+	
+}
+
+.botonStart{
+	position: absolute;
+	top: 3px;
+	left: 637px;
+	width: calc(149px - 0px);
+	height: calc(117px - 0px);
+	/*background: rgba(115, 115, 115,.5);*/
+	background: url(../ima/BotonEnter.png);
+	/*cursor: crosshair;*/
+}
+
+
+/*.start{
+	position: relative;
+	width: 400px;height:400px;
+	background: rgba(115, 115, 115,.5);
+	top: 0px;left: 0px;
+}*/
+
+aside .botonStart a{
+	position: absolute;
+	/*width: 400px;height:400px;*/
+	background: rgba(115, 115, 115,.5);
+	top: 68px;left: 44px;
+	font-size: 20px;
+	
+}
+
+.flags{
+	position: absolute;
+	top: -80px;
+	left: 1300px;
+	width: 55px;
+	height:320px;
+	/*background: rgba(255, 0, 255,.3);*/
+	background: url(../ima/Flags.png);
+	cursor: no-drop;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------*/
+footer{
+	position: relative;
+	margin: auto;
+	width: var(--variable-ancho);
+	height: 55px;
+	background: rgba(0, 0,0,.7);
+	
+	font-size: 15px;
+	line-height: 56px;
+	border-bottom: 2px solid #707070;
+	
+}
+/*--------------------------------------------------*/
+#izq{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	/*background: silver;*/
+	width: 452px;
+	height: 55px;
+	/*background: rgba(128, 128, 128,.5);*/
+}
+
+
+
+
+.firma{
+	position: absolute;
+	top: -33px;
+	left: 21px;
+
+	
+	height: 40px;
+	width: 428px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+    /*background: rgba(192, 192, 192,.5);*/
+    color: white;
+}
+
+
+.firma h1{
+	font-size: 21px;
+	font-family: 'Cookie', cursive;
+	font-family: Arial;
+	/*color: #707070;*/
+}
+.firma h2{
+	font-size: 32px;
+	font-family:  Ber;
+	color: #707070;    /*girs borde*/
+	color: #ff0066;   /*pink*/
+	color: white;
+	color: #B4BDB5;   /*gris start*/
+
+	margin-left: 109px;
+	margin-top: -55px;
+	margin-right: 103px;
+}
+
+
+.firmad{
+	
+	position: absolute;
+	top: 5px;
+	left: 25px;
+
+	height: 50px;
+	/*height: 52px;*/
+	width: 420px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	
+	/*background: rgba(255, 0, 0,.2);*/
+}
+.firmad img{
+
+	position: absolute;
+	top: 2px;
+	left: -2px;
+
+
+
+	width: 36px;
+	height: 36px;
+	
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top:0px;
+	
+	background: silver;
+	background: rgba(192, 192, 192,.4);
+	background: url(../ima/ico.png);
+	background-size: cover;
+	opacity: 0.6;
+}
+.firmad div{
+
+
+	position: absolute;
+	top: 3px;
+	left: 0px;
+
+
+
+	width: 271px;
+	height: 32px;
+	
+	
+	/*background: rgba(255, 165, 0,.4);*/
+	margin-left: 76px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top:0px;
+
+	
+	border-top: 1px solid #C5C5C5;
+	border-bottom: 1px solid #C5C5C5;
+	border-left: 1px solid #C5C5C5;
+	border-right: 1px solid #C5C5C5;
+
+	box-shadow: 0px 3px 6px #FF6600;  /*naranjFLUOR*/
+	box-shadow: 3px 2px 4px #40ff00; /*verdeFLUOR*/
+	box-shadow: 4px 3px 4px #ff0066;  /*pinkFLUOR*/
+
+}
+.firmad h1{
+	font-size: 22px;
+	font-family: STRIKE THROUGH,squiggle1,squiggle,SQUIGGLE ,bungee inline;
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Cookie', cursive;
+	position: absolute;
+	top: -6px;
+	left: 210px;
+	color:#ff0066;
+	color:#FF6600;
+	cursor: wait;
+}
+
+
+
+.firmad h2{
+	font-size: 32px;
+	position: absolute;
+	top: -7px;
+	left: 85px;
+	color:#ff0066;
+	color:#FF6600;
+	
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top:0px;
+}
+/*----------------------------------------------------------------------------------*/
+#cent{
+	position: absolute;
+	top: 0px;
+	left: 496px;
+	/*width: 615px;
+	height:232px;*/
+}
+#cent h1{
+	font-size: 13px;
+	font-family: Arial;
+	margin: -10px 159px;
+	/*text-align: center;*/
+	color: white;
+}
+/*-----------------------------------------------------------------------------------*/
+#der{
+	font-size: 15px;
+	font-family: Arial;
+	
+	color: white;
+	
+
+	position: absolute;
+	top: -7px;
+	left: 85px;
+	
+
+	margin-left: 1075px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top:5px;
+}
