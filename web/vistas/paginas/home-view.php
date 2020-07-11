@@ -7,11 +7,11 @@
 	?>
 	
 	<header>
-		<a class="mc" 	href="file:///F:/PROJKZ/programacion/project-HTML/constructo01/x/index.html" target="blank"></a>
+		<a class="mc" 	href="https://www.mercadolibre.com.co/perfil/NEWDXGC" target="blank"></a>
 		<ul>
-		<li><a href="http://www.magnistudio.com/work/matematica" target="blank"></a></li>
-		<li><a href="https://www.kinguin.net/es/titanfall-2" target="blank"></a></li>
-		<li><a href="https://www.hrkgame.com/es/games/product/titanfall-2-xbox-one" target="blank"></a></li>
+		<li><a href="https://www.google.com/" target="blank"></a></li>
+		<li><a href="https://www.facebook.com/Deluxe-Games-Colombia-108827154044273/"></a></li>
+		<li><a href="https://twitter.com/" target="blank"></a></li>
         </ul>
     </header>
 
